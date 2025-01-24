@@ -1,0 +1,48 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+body{
+    display: grid;
+    margin: auto;
+    padding: 10px;
+    background-image: url(Bordes/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    text-decoration: underline;
+    text-align: center;
+}
+li{
+    padding: 10px;
+    margin: 5px;
+    border: 10px;
+    border-radius: 10px;
+    display: inline;
+    background: linear-gradient(beige, skyblue);
+}
+li:hover{
+    border: 2px solid skyblue;
+}
+ul{
+    padding: 10px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.information{
+    border-radius: 25px;
+    border: 5px solid skyblue;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(170, 206, 230);
+}
+#Flex{
+    display: flex;
+    
+}
