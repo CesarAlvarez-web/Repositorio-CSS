@@ -83,3 +83,10 @@ textarea{
     box-shadow: 4px 2px 6px;
     text-align: center;
 }
+footer{
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 10px;
+    text-align: center;
+    background: linear-gradient(skyblue, gray);
+}

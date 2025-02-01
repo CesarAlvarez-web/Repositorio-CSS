@@ -61,3 +61,10 @@ a{
     background-image: url(Fondo2.png);
     color: aliceblue;
 }
+footer{
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 10px;
+    text-align: center;
+    background: linear-gradient(skyblue, gray);
+}
