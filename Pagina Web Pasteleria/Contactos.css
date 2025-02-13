@@ -1,0 +1,149 @@
+/* Reset */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    transition: 0.4s;
+    background-color: rgb(249, 230, 210);
+    text-align: center;
+}
+
+/* Encabezado */
+
+header .container{
+    background-color: rgb(249, 199, 174);
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+header img{
+    width: 70px;
+    padding-right: 10px;
+    background: none;
+}
+header .logo{
+    background: none;
+}
+header .logo:hover{
+    background: none;
+}
+header a{
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(233, 179, 153);
+    color: black;
+}
+header a:hover{
+    background-color: rgb(238, 168, 133);
+}
+
+/* Seccion de Contactos */
+
+section .container{
+    padding: 10px;
+}
+
+.contactanos h1{
+    font-size: 40px;
+    margin: 10px;
+}
+
+.contactanos h2{
+    font-size: 25px;
+    background-color: rgb(238, 168, 133);
+    margin: 10px;
+}
+.contactanos form{
+    background-color: white;
+    margin: 80px;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 5px 3px 9px;
+}
+
+.contactanos input[type=text]{
+    margin: 10px;
+    background-color: rgb(249, 230, 210);
+    padding: 8px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.contactanos textarea{
+    margin: 10px;
+    background-color: rgb(249, 230, 210);
+    padding: 8px;
+    max-width: 350px;
+    max-height: 150px;
+    border-radius: 15px;
+}
+
+.contactanos label{
+    margin: 10px;
+    padding: 8px;
+    width: 250px;
+    color: rgb(240, 90, 40);
+}
+
+.contactanos button{
+    padding: 6px;
+    margin: 20px;
+    border-radius: 20px;
+    width: 100px;
+    background-color: rgb(238, 168, 133);
+}
+
+/* Etiquetas Generales */
+
+span{
+    color: rgb(240, 127, 140); 
+    font-weight: bold;
+}
+img{
+    width: 150px;
+}
+/*Pie de Pagina*/
+
+footer{
+    padding: 3px;
+    padding-bottom: 15px;
+    background-color: rgb(249, 199, 174);
+}
+
+/* Responsive */
+
+@media (min-width: 768px){
+    
+    header .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    footer img{
+        width: 180px;
+        padding: 0;
+        margin: 0;
+    }
+    footer p{
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 15px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px;
+    }
+
+}

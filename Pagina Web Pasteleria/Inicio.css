@@ -1,0 +1,180 @@
+/*Reset*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    transition: 0.5s;
+    background-color: rgb(249, 230, 210);
+    text-align: center;
+}
+
+/*Seccion Principal*/
+
+header .container{
+    background-color: rgb(249, 199, 174);
+    padding: 6px;
+    display: flex;
+}
+
+header img{
+    width: 70px;
+    padding-right: 10px;
+    background: none;
+}
+
+header .logo{
+    background: none;
+}
+
+header .logo:hover{
+    background: none;
+}
+
+header a{
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(233, 179, 153);
+    color: black;
+}
+header a:hover{
+    background-color: rgb(238, 168, 133);
+}
+section .container{
+    padding: 10px;
+}
+
+/*Seccion de Los Mas Vendidos*/
+
+.pre-galeria img{
+    height: 340px;
+    width: 340px;
+    border-radius: 10px;
+    border:solid rgb(228, 199, 184);
+}
+.pre-galeria h2{
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(240, 127, 140);
+}
+.pre-galeria p{
+    font-size: 22px;
+    color: rgb(240, 90, 40);
+}
+
+/*Seccion Final*/
+
+.pasteleros-estrella{
+    padding: 6px;
+}
+.pasteleros-estrella h2{
+    padding: 10px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(240, 127, 140);
+}
+.pasteleros-estrella img{
+    padding: 10px;
+    margin: 8px;
+    border-radius: 10px;
+    border: 1px solid rgb(249, 230, 210);
+    background: linear-gradient( rgb(240, 165, 163), rgb(249, 199, 174));
+}
+
+/*Elementos Generales*/
+
+button{
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(240, 165, 163);
+    color: rgb(255, 255, 255);
+}
+button:hover{
+    background-color: rgb(241, 133, 129);
+}
+span{
+    color: rgb(240, 127, 140); 
+    font-weight: bold;
+}
+img{
+    width: 150px;
+}
+
+/*Pie de Pagina*/
+
+footer{
+    padding: 3px;
+    padding-bottom: 15px;
+    background-color: rgb(249, 199, 174);
+}
+
+/*Responsive*/
+
+/*Dispositivos Pequeños*/
+@media (max-width: 768px){
+
+    header .container{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    header h1{
+        margin-top: 30px;
+    }
+
+}
+
+/*Dispositivos grandes*/
+@media (min-width: 768px){
+    
+    header .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    section button{
+        margin-top: 20px;
+        height: 50px;
+        width: 500px;
+        font-size: 30px;
+    }
+    .pre-galeria img{
+        width: 600px;
+    }
+    .pasteleros-estrella .container{
+        display: flex;
+    }
+    .pasteleros-estrella img{
+        width: 110px;
+    }
+    footer img{
+        width: 180px;
+        padding: 0;
+        margin: 0;
+    }
+    footer p{
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 15px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px;
+    }
+
+}
