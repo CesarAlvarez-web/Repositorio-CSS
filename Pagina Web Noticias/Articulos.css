@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: white;
+    text-align: center;
+}
+
+.Publicity{
+    margin-top: 80px;
+    width: 90%;
+    height: 180px;
+}
+
+header{
+    border-bottom: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    position: fixed;
+    background-color: red;
+}
+
+header nav li:hover .menu-vertical{
+    display: flex;
+    flex-direction: column;
+}
+
+header nav .menu-vertical{
+    width: 190px;
+    box-shadow: 4px 3px 6px ;
+    border-radius: 20px;
+    display: none;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    background-color: rgb(178, 21, 21);
+}
+
+header ul{
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav .menu-vertical li{
+    padding: 10px;
+}
+
+header li{
+    font-size: 20px;
+    padding-left: 30px;
+    transition: all 0.3s;
+    display: inline-block;
+    font-weight: bold;
+}
+
+header li:hover{
+    transform: scale(1.2);
+    transition: 0.8s;
+}
+
+header img{
+    width: 230px;
+    margin-left: 30px;
+    transition: all 0.3s;
+}
+
+header img:hover{
+    transform: scale(1.2);
+    transition: 0.8s;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+section{
+    margin: 70px;
+    margin-top: 0;
+}
+
+section h1{
+    padding-top: 90px;
+    font-size: 55px;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(red, rgb(122, 86, 86));
+}
+
+section img{
+    margin-bottom: 20px;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 4px 5px 8px black;
+}
+.videos-audios img{
+    width: 800px;
+
+}
+footer{
+    margin-top: 30px;
+    background-color: red;
+    justify-content: center;
+}
+
+footer img{
+    width: 100px;
+    margin-right: 50px;
+}
+
+footer p{
+    color: rgba(10, 10, 10, 0.6);
+}
